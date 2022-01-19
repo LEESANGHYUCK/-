@@ -1,0 +1,18 @@
+# coding-test
+# 문자열 나누기
+
+
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+
+    print('{0} \n{1}'.format((a // b), (a / b)))
+    
+## 예시
+   [input]
+           4
+           3
+   [output]
+           1
+           1.333333333
