@@ -1,0 +1,21 @@
+# coding-test
+# 루프
+
+
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    for i in range(0,n):
+        print(i*i)
+
+    
+## 예시
+   [input]
+           5
+         
+   [output]
+           0
+           1
+           4
+           9
+           16
