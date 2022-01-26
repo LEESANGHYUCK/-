@@ -1,0 +1,25 @@
+# coding-test
+# 준우승점수를 찾아라!
+
+
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    arr = map(int, raw_input().split())
+    arr = list(arr)
+    x = max(arr)
+    y = -9999999
+    for i in range(0,n):
+        if arr[i]<x and arr[i] > y:
+            y = arr[i]
+    
+    print(y)
+
+    
+## 예시
+   [input]
+           5
+           2 3 6 6 5
+         
+   [output]
+           5
