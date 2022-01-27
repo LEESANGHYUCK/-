@@ -1,0 +1,22 @@
+# coding-test
+# 튜플
+
+
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    integer_list = map(int, raw_input().split())
+    tup = ()
+    for x in integer_list:
+       tup+=(x,)
+     
+    print(hash(tup))
+
+    
+## 예시
+   [input]
+           2
+           2 1
+         
+   [output]
+           3713081631934410656
