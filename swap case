@@ -1,0 +1,16 @@
+# coding-test
+# swap case
+
+
+
+def swap_case(s):
+    return s.swapcase()
+
+if __name__ == '__main__':
+    
+## 예시
+   [input]
+           HackerRank.com presents "Pythonist 2".
+         
+   [output]
+           hACKERrANK.COM PRESENTS "pYTHONIST 2".
