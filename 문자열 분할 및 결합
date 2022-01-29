@@ -1,0 +1,19 @@
+# coding-test
+# 문자열 분할 및 결합
+
+
+
+def split_and_join(line):
+    line = line.split(" ")
+    line = "-".join(line)
+    return line
+
+if __name__ == '__main__':
+
+    
+## 예시
+   [input]
+           this is a string
+         
+   [output]
+           this-is-a-string
