@@ -1,0 +1,16 @@
+# coding-test
+# 이름이 뭐에요?
+
+
+
+def print_full_name(a, b):
+    print("Hello {} {}! You just delved into python.".format(a,b))
+if __name__ == '__main__':
+    
+## 예시
+   [input]
+           Ross
+           Taylor
+
+   [output]
+           Hello Ross Taylor! You just delved into python.
