@@ -1,0 +1,26 @@
+# coding-test
+# 디자이너 도어 매트
+
+
+
+N, M = map(int,raw_input().split()) # More than 6 lines of code will result in 0 score. Blank lines are not counted.
+for i in xrange(1,N,2): 
+    print 3*(N-i)/2*"-"+".|."*i+"-"*(3*(N-i)/2)
+print "-"*((3*N-7)/2)+"WELCOME"+"-"*((3*N-7)/2)
+for i in xrange(N-2,-1,-2): 
+    print (3*(N-i)/2)*"-"+".|."*i+"-"*(3*(N-i)/2)|
+
+
+    
+## 예시
+   [input]
+           7 21
+         
+   [output]
+---------.|.---------
+------.|..|..|.------
+---.|..|..|..|..|.---
+-------WELCOME-------
+---.|..|..|..|..|.---
+------.|..|..|.------
+---------.|.---------
