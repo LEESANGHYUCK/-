@@ -1,0 +1,20 @@
+# coding-test
+# itertools.product()
+
+
+
+from itertools import product
+a = map(int, input().split())
+b = map(int, input().split())
+
+print(*product(a, b))
+
+
+    
+## 예시
+   [input]
+           1 2
+           3 4
+         
+   [output]
+           (1, 3) (1, 4) (2, 3) (2, 4)
