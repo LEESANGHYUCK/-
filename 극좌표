@@ -1,0 +1,15 @@
+# coding-test
+# 극좌표
+
+
+import cmath
+print(*cmath.polar(complex(input())), sep='\n')
+
+    
+## 예시
+   [input]
+          1+2j
+
+   [output]
+           2.23606797749979
+           1.1071487177940904
