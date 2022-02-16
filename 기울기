@@ -1,0 +1,52 @@
+# coding-test
+# 기울기
+
+
+
+    N = int(input())
+    empty = []
+    conv = []
+
+    for i in range(N):
+        x = input().split()
+        empty.append(x)
+
+    for i in range(len(empty)):
+        if empty[i][0] == 'insert':
+            x = int(empty[i][1])
+            y = int(empty[i][2])
+            conv.insert(x,y)
+        elif empty[i][0] == 'print':
+            print(conv)
+        elif empty[i][0] == 'remove':
+            conv.remove(int(empty[i][1]))
+        elif empty[i][0] == 'append':
+            conv.append(int(empty[i][1]))
+        elif empty[i][0] == 'sort':
+            conv.sort()
+        elif empty[i][0] == 'pop':
+            conv.pop()
+        elif empty[i][0] == 'reverse':
+            conv.reverse()
+
+    print('{0} \n{1}'.format((a // b), (a / b)))
+    
+## 예시
+   [input]
+           12
+           insert 0 5
+           insert 1 10
+           insert 0 6
+           print
+           remove 6
+           append 9
+           append 1
+           sort
+           print
+           pop
+           reverse
+          print
+   [output]
+           [6, 5, 10]
+           [1, 5, 9, 10]
+           [9, 5, 1]
