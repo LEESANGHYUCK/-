@@ -1,0 +1,16 @@
+# coding-test
+# 대문자로!
+
+
+
+def solve(s):
+    for x in s[:].split():
+        s = s.replace(x, x.capitalize())
+    return s
+    
+## 예시
+   [input]
+           hello world
+         
+   [output]
+           hello world
