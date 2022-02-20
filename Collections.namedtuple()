@@ -1,0 +1,22 @@
+# coding-test
+# Collections.namedtuple()
+
+
+N, headers, total = int(input()), list(input().split()), 0
+for _ in range(N):
+    total += int(list(input().split())[headers.index('MARKS')])
+print(total/N)
+
+    
+## 예시
+   [input]
+          5
+ID         MARKS      NAME       CLASS
+1          97         Raymond    7
+2          50         Steven     4
+3          91         Adrian     9
+4          72         Stewart    5
+5          80         Peter      6
+
+   [output]
+           78.0
