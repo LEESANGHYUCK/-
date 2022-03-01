@@ -1,0 +1,24 @@
+# coding-test
+# No Idea!
+
+
+
+n, m = input().split()
+
+sc_ar = input().split()
+
+A = set(input().split())
+B = set(input().split())
+print(sum([(i in A) - (i in B) for i in sc_ar]))
+
+    
+## 예시
+   [input]
+3 2
+1 5 3
+3 1
+5 7
+           
+         
+   [output]
+1
