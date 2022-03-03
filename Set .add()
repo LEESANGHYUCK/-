@@ -1,0 +1,24 @@
+# coding-test
+# Set .add()
+
+
+
+a = set()
+[a.add(input()) for _ in range(int(input()))]
+print(len(a))
+
+    
+## 예시
+   [input]
+7
+UK
+China
+USA
+France
+New Zealand
+UK
+France
+           
+         
+   [output]
+5
