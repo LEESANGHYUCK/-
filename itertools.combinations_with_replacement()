@@ -1,0 +1,24 @@
+# coding-test
+# itertools.combinations_with_replacement()
+
+
+from itertools import combinations_with_replacement
+s, n = input().split()
+print(*[''.join(i) for i in combinations_with_replacement(sorted(s), int(n))], sep="\n")
+
+    
+## 예시
+   [input]
+HACK 2
+
+   [output]
+AA
+AC
+AH
+AK
+CC
+CH
+CK
+HH
+HK
+KK
