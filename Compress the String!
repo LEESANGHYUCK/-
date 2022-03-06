@@ -1,0 +1,17 @@
+# coding-test
+# Compress the String!
+
+
+
+from itertools import groupby
+for key, group in groupby(input()):
+   print('({}, {})'.format(len(list(group)), key), end=" ")
+
+print(income)
+    
+## 예시
+   [input]
+1222311
+         
+   [output]
+(1, 1) (3, 2) (1, 3) (2, 1) 
