@@ -1,0 +1,37 @@
+# coding-test
+# Set .discard(), .remove() & .pop()
+
+num = int(input())
+data = set(map(int, input().split()))
+operations = int(input())
+
+for x in range(operations):
+  oper = input().split()
+  if oper[0] == "remove":
+    data.remove(int(oper[1]))
+  elif oper[0] == "discard":
+    data.discard(int(oper[1]))
+  else:
+    data.pop()
+    
+print(sum(data))
+
+    
+## 예시
+   [input]
+9
+1 2 3 4 5 6 7 8 9
+10
+pop
+remove 9
+discard 9
+discard 8
+remove 7
+pop
+discard 6
+remove 5
+pop
+discard 5
+
+   [output]
+4
