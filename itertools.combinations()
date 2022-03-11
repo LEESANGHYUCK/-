@@ -1,0 +1,32 @@
+# coding-test
+# itertools.combinations()
+
+
+
+from itertools import combinations
+(String, Value) = input().split()
+
+String = sorted(String)
+Value = int(Value)
+
+for i in range(1,Value+1):
+    for val in list(combinations(String,i)):
+        print(''.join(val))
+
+    
+## 예시
+
+   [input]
+HACK 2
+         
+   [output]
+A
+C
+H
+K
+AC
+AH
+AK
+CH
+CK
+HK
