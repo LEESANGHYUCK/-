@@ -1,0 +1,19 @@
+# coding-test
+# Power - Mod Power
+
+
+
+a,b,m = [int(input()) for _ in '123']
+print(pow(a,b),pow(a,b,m),sep='\n')
+
+print(income)
+    
+## 예시
+   [input]
+3
+4
+5
+         
+   [output]
+81
+1
