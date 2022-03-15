@@ -9,6 +9,10 @@ print(pow(a,b),pow(a,b,m),sep='\n')
 print(income)
     
 ## 예시
+   [Compiler Message]
+Success
+
+
    [input]
 3
 4
