@@ -1,0 +1,21 @@
+# coding-test
+# Set .symmetric_difference() Operation
+
+
+_, a = input(), set(input().split())
+_, b = input(), set(input().split())
+print(len(a.symmetric_difference(b)))
+    
+## 예시
+   [Compiler Message]
+Success
+
+
+   [input]
+9
+1 2 3 4 5 6 7 8 9
+9
+10 1 2 3 11 21 55 6 8
+         
+   [output]
+8
