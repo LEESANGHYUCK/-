@@ -1,0 +1,13 @@
+# coding-test
+# Python Evaluation
+
+
+var = input()
+eval(var)
+    
+## 예시
+   [input]
+print(2 + 3)
+         
+   [output]
+5
