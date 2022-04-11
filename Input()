@@ -1,0 +1,18 @@
+# coding-test
+# Input()
+
+
+
+from itertools import groupby
+for key, group in groupby(input()):
+   print('({}, {})'.format(len(list(group)), key), end=" ")
+
+print(income)
+    
+## 예시
+   [input]
+1 4
+x**3 + x**2 + x + 1
+         
+   [output]
+True
