@@ -1,0 +1,15 @@
+# coding-test
+# Any or All
+
+
+N,n = int(input()),input().split()
+print(all([int(i)>0 for i in n]) and any([j == j[::-1] for j in n]))
+
+    
+## 예시
+   [input]
+5
+12 9 61 5 14
+
+   [output]
+True
